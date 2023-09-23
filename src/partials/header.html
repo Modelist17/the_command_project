@@ -1,13 +1,120 @@
-<header class="header">
-  <nav class="nav">
-    <ul class="nav-list">
-      <li class="nav-item">
-        <a href="./page-2.html" class="nav-link">Page 2</a>
-      </li>
+<header class="page-header">
+  <div class="navbar container">
+    <nav class="nav-menu">
+      <a href="./index.html" class="logo-header link"
+        >Web<span class="logo-accent">Studio</span>
+      </a>
+      <ul class="list menu-list">
+        <li class="menu-list-item">
+          <a class="navigation link studio-link" href="./index.html">Studio</a>
+        </li>
+        <li class="menu-list-item">
+          <a class="navigation link" href="">Portfolio</a>
+        </li>
+        <li class="menu-list-item">
+          <a class="navigation link" href="">Contacts</a>
+        </li>
+      </ul>
+    </nav>
 
-      <li class="nav-item">
-        <a href="./page-3.html" class="nav-link">Page 3</a>
+    <!-- Контактна інформація -->
+
+    <address class="address-links">
+      <ul class="list address-list">
+        <li class="address-list-item">
+          <a class="contact-links link" href="mailto:info@devstudio.com"
+            >info@devstudio.com
+          </a>
+        </li>
+        <li class="address-list-item">
+          <a class="contact-links link" href="tel:+110001111111"
+            >+11 (000) 111-11-11
+          </a>
+        </li>
+      </ul>
+    </address>
+  </div>
+  <div class="burger-menu">
+    <button class="burger-menu-btn js-open-menu" type="button">
+      <svg
+        class="icon-burger-menu"
+        width="24"
+        height="24"
+        aria-label="mobile menu open button"
+      >
+        <use href="./images/icons.svg#icon-menu-burger"></use>
+      </svg>
+    </button>
+  </div>
+</header>
+<!-- ##### Modal window - mobile menu ##### -->
+<div class="mobile-menu js-menu-container">
+  <button class="modal-close-btn js-close-menu" type="button">
+    <svg class="icon-close" width="8" height="8">
+      <use href="./images/icons.svg#icon-close"></use>
+    </svg>
+  </button>
+  <nav class="mobile-menu-nav">
+    <ul class="mobile-menu-list list">
+      <li class="mobile-menu-list-item">
+        <a href="" class="section-title link active-mob-menu-link">studio</a>
+      </li>
+      <li class="mobile-menu-list-item">
+        <a href="" class="section-title link">portfolio</a>
+      </li>
+      <li class="mobile-menu-list-item">
+        <a href="" class="section-title link">contacts</a>
       </li>
     </ul>
   </nav>
-</header>
+
+  <div class="menu-mob-contacts">
+    <address class="address-links">
+      <ul class="list address-mob-list">
+        <li class="address-mob-list-item">
+          <a
+            class="contact-links-mob link active-mob-menu-link"
+            href="tel:+110001111111"
+            >+11 (000) 111-11-11
+          </a>
+        </li>
+        <li class="address-mob-list-item">
+          <a class="contact-links-mob link" href="mailto:info@devstudio.com"
+            >info@devstudio.com
+          </a>
+        </li>
+      </ul>
+    </address>
+
+    <ul class="sm-list list">
+      <li class="sm-list-item">
+        <a href="" class="sm-team-link sm-link link">
+          <svg class="sm-icon" width="16" height="16">
+            <use href="./images/icons.svg#icon-instagram"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="sm-list-item">
+        <a href="" class="sm-team-link sm-link link">
+          <svg class="sm-icon" width="16" height="16">
+            <use href="./images/icons.svg#icon-twitter"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="sm-list-item">
+        <a href="" class="sm-team-link sm-link link">
+          <svg class="sm-icon" width="16" height="16">
+            <use href="./images/icons.svg#icon-facebook"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="sm-list-item">
+        <a href="" class="sm-team-link sm-link link">
+          <svg class="sm-icon" width="16" height="16">
+            <use href="./images/icons.svg#icon-linkedin"></use>
+          </svg>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
